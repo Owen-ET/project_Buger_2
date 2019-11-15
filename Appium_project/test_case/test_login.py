@@ -7,11 +7,18 @@
 
 from Appium_project.page.login_page import LoginHR
 from Appium_project.common.my_test import MyTest
+from ddt import ddt,data,file_data,unpack
 import unittest
 
 
+
+@ddt
 class TestLogin(MyTest):
 
+
+
+    @file_data("../data/ddt_data_file.yaml")
+    @unpack
     def test_login01(self):
         '''测试用例01：验证登录失败信息'''
         LoginHR(self.driver).login_action(

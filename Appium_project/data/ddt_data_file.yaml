@@ -1,0 +1,46 @@
+用例1:
+  data1:
+    - keys: "yaml01"
+    - keys: "yaml02"
+  data2:
+    - keys: "yaml03"
+    - keys: "yaml04"
+用例2:
+  data1:
+    - keys: "yaml05"
+    - keys: "yaml06"
+  data2:
+    - keys: "yaml07"
+    - keys: "yaml08"
+用例3:
+  data1:
+    - keys: "yaml09"
+    - keys: "yaml10"
+  data2:
+    - keys: "yaml11"
+    - keys: "yaml12"
+
+
+
+
+
+
+
+start_HRApp:
+  ip: 127.0.0.1
+  port: 4723
+  implicitly_wait: 10
+  caps:
+    android:
+      platformName: Android
+      #模拟器
+      platformVersion: 6.0
+      deviceName: OPPO
+      appPackage: com.csksc2b.invertory
+      appActivity: com.csks.login.SplashAty
+      noReset: True
+      unicodeKeyboard: True
+      resetKeyboard: True
+      autoGrantPermissions: True
+      automationName: uiautomator2
+    ios:

@@ -28,15 +28,44 @@
 
 
 
-for i in range(1,10):
-    for j in range(1,i+1):
-        print(str(i)+'*'+str(j)+'='+str(i*j),end="\t")
-    # print("1",end="\t")
-    # print("1")
-    print()
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print(str(i)+'*'+str(j)+'='+str(i*j),end="\t")
+#     # print("1",end="\t")
+#     # print("1")
+#     print()
 
 
 # for i in range(1,10):
 #     for j in range(1,i+1):
 #         print(str(j) + str("*") + str(i)+"=" + str(i*j),end="\t")
 #     print()
+
+
+
+
+list = [{
+    "start_HRApp":
+   { "ip": '127.0.0.1',
+     "port": 4723,
+     "implicitly_wait": 10,
+     "caps":
+      { "android":
+         { "platformName": 'Android',
+           "platformVersion": 6,
+           "deviceName": 'OPPO',
+           "appPackage": 'com.csksc2b.invertory',
+           "appActivity": 'com.csks.login.SplashAty',
+           "noReset": True,
+           "unicodeKeyboard": True,
+           "resetKeyboard": True,
+           "autoGrantPermissions": True,
+           "automationName": 'uiautomator2'
+        },
+        "ios": None
+      }
+   }
+}]
+
+
+print(list[0][])
