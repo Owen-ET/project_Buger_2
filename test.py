@@ -68,4 +68,10 @@ list = [{
 }]
 
 
-print(list[0][])
+# print(list[0][])
+
+from selenium import webdriver
+
+
+driver = webdriver.Chrome()
+driver.get("http://www.baidu.com")
