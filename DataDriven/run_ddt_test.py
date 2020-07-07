@@ -11,8 +11,8 @@ from BSTestRunner import BSTestRunner
 
 
 def send_mail(report):
-    yag = yagmail.SMTP(user='zhangchanget@126.com',
-                       password='Dayuzhou66',
+    yag = yagmail.SMTP(user='xxx@126.com',
+                       password='xxx',
                        host='smtp.126.com'
                        )
     subject = '邮件标题：自动化测试报告'
