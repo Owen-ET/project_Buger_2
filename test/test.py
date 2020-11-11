@@ -4,6 +4,8 @@
 # @Author  : zc
 # @File    : test.py
 
+import json
+import yaml
 
 # list = [{
 #   'case1':
@@ -28,12 +30,12 @@
 
 
 
-# for i in range(1,10):
-#     for j in range(1,i+1):
-#         print(str(i)+'*'+str(j)+'='+str(i*j),end="\t")
-#     # print("1",end="\t")
-#     # print("1")
-#     print()
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(str(i)+'*'+str(j)+'='+str(i*j),end="\t")
+    # print("1",end="\t")
+    # print("1")
+    print()
 
 
 # for i in range(1,10):
@@ -70,8 +72,10 @@ list = [{
 
 # print(list[0][])
 
-from selenium import webdriver
+users1 = json.loads(open('./users.json','r').read())
+print(users1)
 
+with open('./users.yaml','r',encoding='utf-8') as file:
+    users2 = yaml.load(file)
 
-driver = webdriver.Chrome()
-driver.get("http://www.baidu.com")
+print(users2)
