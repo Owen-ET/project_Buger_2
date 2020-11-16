@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Nov 13 13:42:13 CST 2020","Fri Nov 13 13:42:15 CST 2020","2144","","test_v2ex_api2","TestV2exApi","","","test_node[lang1]",""
+"failed","Fri Nov 13 13:42:15 CST 2020","Fri Nov 13 13:42:16 CST 2020","848","","test_v2ex_api2","TestV2exApi","","","test_node[lang2]",""
+"passed","Fri Nov 13 13:42:16 CST 2020","Fri Nov 13 13:42:16 CST 2020","849","","test_v2ex_api2","TestV2exApi","","","test_node[lang3]",""
+"passed","Fri Nov 13 13:42:10 CST 2020","Fri Nov 13 13:42:13 CST 2020","2397","","test_v2ex_api2","TestV2exApi","","","test_node[lang0]",""

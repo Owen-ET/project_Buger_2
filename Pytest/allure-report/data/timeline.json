@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "6748-MainThread",
+      "children" : [ {
+        "name" : "test_node[lang0]",
+        "uid" : "42d1663921e39533",
+        "parentUid" : "06d3eb3404ca93dde39156c09593bf79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605246130679,
+          "stop" : 1605246133076,
+          "duration" : 2397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'python', 'id': 90}" ]
+      }, {
+        "name" : "test_node[lang2]",
+        "uid" : "e9829b25a9deddd6",
+        "parentUid" : "06d3eb3404ca93dde39156c09593bf79",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605246135225,
+          "stop" : 1605246136073,
+          "duration" : 848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'php', 'id': 62888}" ]
+      }, {
+        "name" : "test_node[lang3]",
+        "uid" : "246168ba6bea3799",
+        "parentUid" : "06d3eb3404ca93dde39156c09593bf79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605246136140,
+          "stop" : 1605246136989,
+          "duration" : 849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'js', 'id': 146}" ]
+      }, {
+        "name" : "test_node[lang1]",
+        "uid" : "d20b9436d325df88",
+        "parentUid" : "06d3eb3404ca93dde39156c09593bf79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605246133078,
+          "stop" : 1605246135222,
+          "duration" : 2144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'java', 'id': 63}" ]
+      } ],
+      "uid" : "06d3eb3404ca93dde39156c09593bf79"
+    } ],
+    "uid" : "714cfecb70b7a7a2c0a4a2fae68ce27d"
+  } ]
+}

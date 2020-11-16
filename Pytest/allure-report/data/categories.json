@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 62 == 62888",
+      "children" : [ {
+        "name" : "test_node[lang2]",
+        "uid" : "e9829b25a9deddd6",
+        "parentUid" : "28f03765f2aacbf1b30c2743fb6beb5e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605246135225,
+          "stop" : 1605246136073,
+          "duration" : 848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'php', 'id': 62888}" ]
+      } ],
+      "uid" : "28f03765f2aacbf1b30c2743fb6beb5e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
